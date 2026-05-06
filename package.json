@@ -1,6 +1,6 @@
 {
 
-    "homepage": "https://AsmaACHOUAL.github.io/cv-react",
+    "homepage": "https://aachoual8638-sudo.github.io/projet-web-2026-aachoual8638-sudo",
 
     "name": "first",
 
@@ -29,17 +29,10 @@
     },
 
     "scripts": {
-
         "dev": "vite",
-
         "build": "vite build",
-
         "preview": "vite preview",
-
-        "predeploy": "npm run build",
-
-        "deploy": "gh-pages -d dist"
-
+        "deploy": "gh-pages -d dist --repo https://github.com/aachoual8638-sudo/aachoual8638-sudo.github.io.git"
     },
 
     "eslintConfig": {
@@ -87,4 +80,3 @@
     }
 
 }
-
