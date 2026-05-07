@@ -109,14 +109,14 @@ export default function App() {
         <h2>Projets</h2>
 
         <ProjectCard
-          title="Jeu en C++"
-          desc="Jeu basé sur la logique et les algorithmes"
-          tech="C++"
+         title="Jeu en C++"
+         desc="Ce projet représente un jeu en C++ qui symbolise les obstacles et les difficultés que rencontre un étudiant universitaire face aux examens et aux défis académiques. Le jeu illustre de manière logique et algorithmique la gestion du stress et la résolution de problèmes sous pression."
+         tech="C++"
         />
 
         <ProjectCard
-          title="Site Web Portfolio"
-          desc="Site responsive HTML/CSS/JS"
+          title="Site Web Décoration Marocaine"
+          desc="Site web moderne dédié à la décoration marocaine traditionnelle et contemporaine. Il propose une interface élégante permettant aux clients de découvrir différents styles décoratifs et de répondre à tous leurs besoins en matière de design intérieur, alliant modernité et tradition."
           tech="HTML, CSS, JS"
         />
 

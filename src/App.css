@@ -36,7 +36,7 @@ section {
 }
 
 h2 {
-    border-left: 5px solid #66a0d2;
+    border-left: 5px solid #66bdd4;
     padding-left: 10px;
 }
 
@@ -54,7 +54,7 @@ h2 {
 .bar {
     width: 0;
     height: 10px;
-    background: #66a0d2;
+    background: #66bdd4;
     border-radius: 5px;
     margin-top: 5px;
 }
@@ -63,7 +63,7 @@ h2 {
 /* ================= FORMATION ================= */
 
 .accordion {
-    background: #66a0d2;
+    background: #66bdd4;
     color: white;
     padding: 10px;
     margin-top: 10px;
@@ -107,7 +107,7 @@ textarea {
 
 button {
     padding: 10px;
-    background: #66a0d2;
+    background: #66bdd4;
     color: white;
     border: none;
     border-radius: 5px;
@@ -115,5 +115,5 @@ button {
 }
 
 button:hover {
-    background: #66a0d2;
+    background: #66bdd4;
 }
