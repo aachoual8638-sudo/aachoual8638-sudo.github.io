@@ -65,7 +65,11 @@ export default function App() {
 
         <h1>Asma ACHOUAL</h1>
         <h3>Étudiante en Développement Informatique (SINF)</h3>
-        <p> a.achoual8638@uca.ac.ma |  www.linkedin.com/in/asma-achoual-b93572407 |  GitHub</p>
+       <div style="display: flex; justify-content: center; gap: 20px; margin-top: 15px; flex-wrap: wrap;">
+    <a href="mailto:a.achoual8638@uca.ac.ma" style="color: #667eea; text-decoration: none;"> a.achoual8638@uca.ac.ma</a>
+    <a href="https://www.linkedin.com/in/asma-achoual-b93572407" target="_blank" style="color: #667eea; text-decoration: none;"> LinkedIn</a>
+    <a href="https://github.com/asma-achoual" target="_blank" style="color: #667eea; text-decoration: none;"> GitHub</a>
+</div>
       </header>
 
       {/* À propos */}
