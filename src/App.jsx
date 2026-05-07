@@ -65,7 +65,7 @@ export default function App() {
 
         <h1>Asma ACHOUAL</h1>
         <h3>Étudiante en Développement Informatique (SINF)</h3>
-        <p> email |  LinkedIn |  GitHub</p>
+        <p> a.achoual8638@uca.ac.ma |  www.linkedin.com/in/asma-achoual-b93572407 |  GitHub</p>
       </header>
 
       {/* À propos */}
