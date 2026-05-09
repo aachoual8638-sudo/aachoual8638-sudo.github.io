@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import $ from "jquery";
 import ProjectCard from "./components/ProjectCard";
 import "./App.css";
-import profile from "./assets/image.png";
+import profile from "./assets/image.jpeg";
 export default function App() {
 
   //  jQuery for Compétences animation + formation accordion + form validation
