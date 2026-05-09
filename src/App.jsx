@@ -46,7 +46,7 @@ export default function App() {
 
       {/* HEADER */}
       <header style={{
-        background: "linear-gradient(to right, #66bdd4, #66bdd4)",
+        background: "linear-gradient(to right, #e9a142, #e9a142)",
         color: "white",
         textAlign: "center",
         padding: "40px"
@@ -76,7 +76,7 @@ export default function App() {
 >
   <a
     href="mailto:a.achoual8638@uca.ac.ma"
-    style={{ color: "#4e707a", textDecoration: "none" }}
+    style={{ color: "#664c2a", textDecoration: "none" }}
   >
     a.achoual8638@uca.ac.ma
   </a>
@@ -85,7 +85,7 @@ export default function App() {
     href="https://www.linkedin.com/in/asma-achoual-b93572407"
     target="_blank"
     rel="noreferrer"
-    style={{ color: "#4e707a", textDecoration: "none" }}
+    style={{ color: "#664c2a", textDecoration: "none" }}
   >
     LinkedIn
   </a>
@@ -94,7 +94,7 @@ export default function App() {
     href="https://github.com/asma-achoual"
     target="_blank"
     rel="noreferrer"
-    style={{ color: "#4e707a", textDecoration: "none" }}
+    style={{ color: "#664c2a", textDecoration: "none" }}
   >
     GitHub
   </a>
@@ -117,60 +117,225 @@ export default function App() {
       </section>
 
       {/* Compétences  */}
-      <section>
-        <h2>Compétences</h2>
+      <section class="skills">
 
-        <div className="skill">HTML <div className="bar" data-level="90"></div></div>
-        <div className="skill">CSS <div className="bar" data-level="85"></div></div>
-        <div className="skill">JavaScript <div className="bar" data-level="75"></div></div>
-        <div className="skill">React <div className="bar" data-level="70"></div></div>
-      </section>
+  <h2>Compétences</h2>
+
+  <div class="skills-container">
+
+   //HTML
+    <div class="skill-card">
+      <div class="skill-info">
+        <h3>HTML</h3>
+        <span>85%</span>
+      </div>
+
+      <p>Structure des pages web modernes</p>
+
+      <div class="progress-bar">
+        <div class="progress html"></div>
+      </div>
+    </div>
+
+       //CSS
+    <div class="skill-card">
+      <div class="skill-info">
+        <h3>CSS</h3>
+        <span>70%</span>
+      </div>
+
+      <p>Design responsive et animations</p>
+
+      <div class="progress-bar">
+        <div class="progress css"></div>
+      </div>
+    </div>
+
+    // JavaScript
+    <div class="skill-card">
+      <div class="skill-info">
+        <h3>JavaScript</h3>
+        <span>60%</span>
+      </div>
+
+      <p>Interactions dynamiques et logique web</p>
+
+      <div class="progress-bar">
+        <div class="progress js"></div>
+      </div>
+    </div>
+          //React
+    <div class="skill-card">
+      <div class="skill-info">
+        <h3>React</h3>
+        <span>50%</span>
+      </div>
+
+      <p>Création d'interfaces modernes et composants</p>
+
+      <div class="progress-bar">
+        <div class="progress react"></div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
 
       {/*  FORMATION  */}
-      <section>
-        <h2>Formation</h2>
+      <section class="formation">
 
-        <div className="accordion">Licence SINF</div>
-        <div className="panel">2023 - 2026 | Faculté des Sciences</div>
+  <h2>Formation</h2>
 
-        <div className="accordion">Baccalauréat</div>
-        <div className="panel">2023 | Science Physique</div>
-      </section>
+  <div class="formation-container">
 
-      {/*  PROJECTS  */}
-      <section>
-        <h2>Projets</h2>
+    <div class="formation-card">
+      <div class="formation-date">2024 - Présent</div>
 
-        <ProjectCard
-         title="Jeu en C++"
-         desc="Ce projet représente un jeu en C++ qui symbolise les obstacles et les difficultés que rencontre un étudiant universitaire face aux examens et aux défis académiques. Le jeu illustre de manière logique et algorithmique la gestion du stress et la résolution de problèmes sous pression."
-         tech="C++"
-        />
+      <h3>Licence SINF</h3>
 
-        <ProjectCard
-          title="Site Web Décoration Marocaine"
-          desc="Site web moderne dédié à la décoration marocaine traditionnelle et contemporaine. Il propose une interface élégante permettant aux clients de découvrir différents styles décoratifs et de répondre à tous leurs besoins en matière de design intérieur, alliant modernité et tradition."
-          tech="HTML, CSS, JS"
-        />
+      <p>
+        Formation universitaire spécialisée en systèmes informatiques,
+        développement web, programmation et bases de données.
+      </p>
+    </div>
 
-        <ProjectCard
-          title="CV React"
-          desc="CV interactif avec React + jQuery"
-          tech="React, jQuery"
-        />
-      </section>
+    <div class="formation-card">
+      <div class="formation-date">2023 - 2024</div>
+
+      <h3>Baccalauréat</h3>
+
+      <p>
+        Obtention du diplôme du baccalauréat  en sciences physiques.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+      {/* Les PROJECTS  */}
+      <section class="projects">
+
+  <h2>Projets</h2>
+
+  <div class="projects-container">
+
+   //Projet 1
+    <div class="project-card">
+
+      <div class="project-tech">C++</div>
+
+      <h3>Jeu en C++</h3>
+
+      <p>
+        Jeu représentant les obstacles et les défis rencontrés
+        par un étudiant universitaire durant les examens.
+      </p>
+
+      <button>Voir Projet</button>
+
+    </div>
+
+    //Projet 2
+    <div class="project-card">
+
+      <div class="project-tech">HTML • CSS • JS</div>
+
+      <h3>Site Web Décoration Marocaine</h3>
+
+      <p>
+        Site moderne dédié à la décoration marocaine traditionnelle
+        et contemporaine avec une interface élégante.
+      </p>
+
+      <button>Voir Projet</button>
+
+    </div>
+
+    //Projet 3
+    <div class="project-card">
+
+      <div class="project-tech">React • jQuery</div>
+
+      <h3>CV React</h3>
+
+      <p>
+        CV interactif moderne développé avec React et animations
+        dynamiques pour une meilleure expérience utilisateur.
+      </p>
+
+      <button>Voir Projet</button>
+
+    </div>
+
+  </div>
+
+</section>
 
       {/* Contact*/}
-      <section>
-        <h2>Contact</h2>
+      <section class="contact">
 
-        <form id="contactForm">
-          <input id="name" placeholder="Nom" /><br /><br />
-          <input id="email" placeholder="Email" /><br /><br />
-          <textarea id="msg" placeholder="Message"></textarea><br /><br />
-          <button>Envoyer</button>
-        </form>
-      </section>
+  <h2>Contact</h2>
+
+  <div class="contact-container">
+
+    //information de contacte
+    <div class="contact-info">
+
+      <h3>Lets Work Together</h3>
+
+      <p>
+        N'hésitez pas à me contacter pour toute collaboration,
+        projet web ou opportunité professionnelle.
+      </p>
+
+      <div class="info-box">
+        <i class="fas fa-envelope"></i>
+        <span>a.achoual8638@uca.ac.ma</span>
+      </div>
+
+      <div class="info-box">
+        <i class="fas fa-phone"></i>
+        <span>+212 7 00 00 00 00</span>
+      </div>
+
+      <div class="info-box">
+        <i class="fas fa-location-dot"></i>
+        <span>Marrakech, Maroc</span>
+      </div>
+
+    </div>
+
+    //Formulaire de contacte
+<form
+  className="contact-form"
+  onSubmit={(e) => {
+    e.preventDefault();//e.preventDefault() : empêche le comportement automatique d’un événement (clic, submit, etc.)
+    alert("Message envoyé avec succès !");
+  }}
+    >  </form>
+    <form class="contact-form">
+
+      <div class="input-box">
+        <input type="text" placeholder="Votre nom" required/>
+      </div>
+
+      <div class="input-box">
+        <input type="email" placeholder="Votre email" required/>
+      </div>
+
+      <div class="input-box">
+        <textarea placeholder="Votre message" rows="6"></textarea>
+      </div>
+
+      <button type="submit">Envoyer Message</button>
+
+    </form>
+
+  </div>
+
+</section>
 
     </div>
   );
